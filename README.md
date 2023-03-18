@@ -1,4 +1,4 @@
-# vue2-app
+# zuno-library-test-app
 
 ## Project setup
 ```
