@@ -1,0 +1,34 @@
+{
+ "books": [
+    {"BibNum": 3011076, "title": "A tale of two friends / adapted by Ellie O'Ryan ; illustrated by Tom Caulfield, Frederick Gardner, Megan Petasky, and Allen Tam.", "author": "O'Ryan, Ellie", "isbn": "1481425730, 1481425749, 9781481425735, 9781481425742",  "publicationyear":	 2014},
+    {"BibNum": 3209270, "title": "Peace, love & Wi-Fi : a ZITS treasury / by Jerry Scott and Jim Borgman.",	"author": "Scott, Jerry, 1955-", "isbn": "144945867X, 9781449458676",  "publicationyear":	 2014},
+    {"BibNum": 3264577, "title": "The Sandcastle Empire / Kayla Olson.", "author": "Olson, Kayla", "isbn": "0062484877, 9780062484871",  "publicationyear": 2017},
+    {"BibNum": 3018388, "title": "Burnt toast makes you sing good : a memoir of food and love from an American Midwest family / Kathleen Flinn.", "author": "Flinn, Kathleen", "isbn": "067001544X, 9780670015443",  "publicationyear": 2014},
+    {"BibNum": 3274605, "title": "The only child : a novel / Andrew Pyper.", "author": "Pyper, Andrew", "isbn": "1476755213, 9781476755212",  "publicationyear": 2017},
+    {"BibNum": 3265336, "title":"The Jolley-Rogers and the monster's gold / Jonny Duddle.",	"author": "Duddle, Jonny", "isbn": "0763692921, 9780763692926",  "publicationyear":	2017},
+    {"BibNum": 3167678, "title":"The Alchemists' Council / Cynthea Masson.",	"author": "Masson, Cynthea, 1962-", "isbn": "1770412719, 9781770412712",  "publicationyear":	2016},
+    {"BibNum": 3165211, "title":"The aromatherapy garden : growing fragrant plants for happiness and well-being / Kathi Keville.",	"author": "Keville, Kathi", "isbn": "1604695498, 9781604695496",  "publicationyear":	2016},
+    {"BibNum": 3199800, "title":"Naked '76 / Kevin Brooks.",	"author": "Brooks, Kevin", "isbn": "1512404187, 9781512404180",  "publicationyear":	2016},
+    {"BibNum": 2268788, "title":"Abakada ng pag-ibig : Paula / Maia Jose.",	"author": "Jose, Maia.", "isbn": "9718240357",  "publicationyear":	2000},
+    {"BibNum": 7975646, "title":"Broadcasting yearbook--marketbook issue.",	"author": "", "isbn": "",  "publicationyear":		1960},
+    {"BibNum": 2552455, "title":"The great powers outage / William Boniface ; illustrations by Stephen Gilpin.",	"author": "Boniface, William", "isbn": "0060774703, 0060774711, 9780060774707, 9780060774714",  "publicationyear":	2008},
+    {"BibNum": 2242143, "title":"Last day, hooray! / Nancy Poydar.",	"author": "Poydar, Nancy", "isbn": "823418073",  "publicationyear":	2004}
+ ],
+ "media_type": [
+    { "code": "pkbknh", "description": "Peak Picks Book", "code_type": "ItemType", "format_group": "",  "format_subgroup": "", "category_group": "", "category_subgroup": ""},			
+    { "code": "acart", "description": "Framed Art: Adult/YA", "code_type": "ItemType", "format_group": "Media", "format_subgroup": "Art", "category_group": "","category_subgroup": ""},	
+    { "code": "acbk", "description": "Book: Adult/YA", "code_type": "ItemType", "format_group": "Print", "format_subgroup":"Book", "category_group":"","category_subgroup": ""},	
+    { "code": "accas", "description": "Audio Tape: Adult/YA", "code_type": "ItemType", "format_group": "Media", "format_subgroup": "Audio Tape", "category_group":"","category_subgroup": ""},		
+    { "code": "accd", "description": "CD: Adult/YA", "code_type": "ItemType", "format_group": "Media", "format_subgroup": "Audio Disc", "category_group":"","category_subgroup": ""},		
+    { "code": "accdrom", "description": "CD-ROM: Adult/YA", "code_type": "ItemType", "format_group": "Media", "format_subgroup":"Data Disc", "category_group":"","category_subgroup": ""},		
+    { "code": "acdisk", "description": "Diskette: Adult/YA", "code_type": "ItemType", "format_group": "Media"	, "format_subgroup": "Data Disc", "category_group":"","category_subgroup": ""}
+ ],
+ "checkout": [
+    {"BibNumber":2543647,"ItemBarcode": 10063298235	,"ItemType":"accd",	"CallNumber":"CD 782.42166 C6606So",	"CheckoutDateTime":"1/2/2017 8:13"},
+    {"BibNumber":3172300,	"ItemBarcode":10087522552,	"ItemType":"acbk",	"CallNumber":"MYSTERY COTTERI 2016",	"CheckoutDateTime":"1/2/2017 8:13"},
+    {"BibNumber":2393405,	"ItemBarcode":10054483200,	"ItemType":"acbk",	"CallNumber":"MYSTERY MAY2006",	"CheckoutDateTime":"1/2/2017 8:24"},
+    {"BibNumber":3199718,	"ItemBarcode":10088153514,	"ItemType":"acdvd",	"CallNumber":"DVD 781.66092 M3347G", "CheckoutDateTime": "1/2/2017 8:33"},
+    {"BibNumber":3211526,	"ItemBarcode":10089643810,	"ItemType":"accd",	"CallNumber":"CD 782.42166 Sh75o",	"CheckoutDateTime":"1/2/2017 8:33"},
+    {"BibNumber":2743540,	"ItemBarcode":10074812131,	"ItemType":"acbk",	"CallNumber":"158.20874 M3167L 2011",	"CheckoutDateTime":"1/2/2017 8:33"},
+    {"BibNumber":3100439,	"ItemBarcode":10085432515,	"ItemType":"accd",	"CallNumber":"CD 617.48092 M353M 2015",	"CheckoutDateTime":"1/2/2017 8:48"} ]
+}

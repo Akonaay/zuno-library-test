@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="img/logo.png" />
+		<title>Zuno Library</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+	<body>
+		<noscript>
+			<strong
+				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+				properly without JavaScript enabled. Please enable it to
+				continue.</strong
+			>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+		<!-- JS Plugins  -->
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+
+		<script>
+			$(function () {
+				/*===================================*
+	01. MENU JS
+	*===================================*/
+				$(window).on("scroll", function () {
+					var scroll = $(window).scrollTop();
+
+					if (scroll >= 90) {
+						$("#site-header").addClass("nav-fixed");
+					} else {
+						$("#site-header").removeClass("nav-fixed");
+					}
+				});
+
+				//Main navigation Active Class Add Remove
+				$(".navbar-toggler").on("click", function () {
+					$("header").toggleClass("active");
+
+					var scroll = $(window).scrollTop();
+
+					if (scroll <= 90) {
+						$("header").addClass("dark-bg");
+					} else {
+						$("header").removeClass("header-bg");
+					}
+				});
+
+				$(document).on("ready", function () {
+					if ($(window).width() > 991) {
+						$("header").removeClass("active");
+					}
+					$(window).on("resize", function () {
+						if ($(window).width() > 991) {
+							$("header").removeClass("active");
+						}
+					});
+				});
+			});
+		</script>
+	</body>
+</html>
